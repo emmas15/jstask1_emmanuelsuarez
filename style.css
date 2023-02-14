@@ -7,27 +7,23 @@
 
 body{
     background-color: rgb(255, 185, 145);
+    margin: 0;
+    padding: o;
 }
 
-/* nav{
-    justify-content: flex-end;    
-} */
-
-/* .checkboxbrowser{
-    justify-content: flex-end;
-} */
-
-/* nav, .checkboxbrowser {
-    display: table-row;
-    al
-} */
-
-.contenedor1{
-    display: table-row;
-    align-content: flex-start;
+.checkboxbrowser{
+    display: flex;
 }
 
-.container-text-center{
-    display: inline-flexbox;
-    justify-content:space-around
+.checkbox{
+    flex: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction:column ;
+}
+
+header{
+    justify-content: space-evenly;
 }
